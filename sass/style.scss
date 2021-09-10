@@ -23,6 +23,19 @@ section {
     }
 }
 
+.btn {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px -5px  gray;
+    padding: 15px;
+    background-color: $bgc-btn;
+    color: $font-light;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
 .header {
     margin-bottom: 15px;
 
