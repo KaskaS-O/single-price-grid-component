@@ -11,6 +11,38 @@
   font-size: 16px;
 }
 
+section {
+  padding: 30px;
+}
+
+.title {
+  margin: 10px 0 30px;
+  font-size: 1.6rem;
+  color: #2ab2af;
+}
+
+.title--section {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #e5eff5;
+}
+
+.header {
+  margin-bottom: 15px;
+}
+
+.header__subtitle {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 120%;
+  color: #c0df34;
+}
+
+.header__description {
+  color: #98a6bd;
+  line-height: 200%;
+}
+
 .offer {
   background-color: #2ab2af;
 }
