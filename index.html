@@ -2,48 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  Join our community
+  <div class="wrapper">
+    <section class="header">
+      <h1 class="title">Join our community</h1>
+      <h3 class="header__subtitle">30-day, hassle-free money back guarantee</h3>
+      <p class="header__description">Gain access to our full library of tutorials along with expert code reviews. 
+        Perfect for any developers who are serious about honing their skills.</p>
+    </section>
 
-  30-day, hassle-free money back guarantee
+    <section class="offer">
+      <h2 class="title--section">Monthly Subscription</h2>
+      <div class="offer__price-element">
+        <p><strong> &dollar;29</strong> per month</p>
+      </div>
+      <p class="offer__description">Full access for less than &dollar;1 a day</p>
+      <button class="offer__btn">Sign Up</button>
+    </section>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
-
-  Monthly Subscription
-
-  &dollar;29 per month
-
-  Full access for less than &dollar;1 a day
-
-  Sign Up
-
-  Why Us
-
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
+    <section class="about">
+      <h2 class="title--section">Why Us</h2>
+      <ul class="about__list">
+        <li class="about__list-element">Tutorials by industry experts</li>
+        <li class="about__list-element">Peer &amp; expert code review</li>
+        <li class="about__list-element">Coding exercises</li>
+        <li class="about__list-element">Access to our GitHub repos</li>
+        <li class="about__list-element">Community forum</li>
+        <li class="about__list-element">Flashcard decks</li>
+        <li class="about__list-element">New videos every week</li>
+      </ul>
+    </section>
+  </div>
   
-  <footer>
-    <p class="attribution">
+  <footer class="footer">
+    <p class="footer__attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">CodingDuck</a>.
     </p>
   </footer>
 </body>

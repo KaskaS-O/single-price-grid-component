@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer__attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer__attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */

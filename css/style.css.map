@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AAID,AAAA,oBAAoB,CAAC;EACjB,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CAErB;;AAJD,AAGI,oBAHgB,CAGhB,CAAC,CAAC;EAAE,KAAK,EAAE,OAAkB;CAAI",
+    "sources": [
+        "../single-price-grid-component/style.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
