@@ -36,3 +36,4 @@ The project was for me an opportunity to remind and practise some CSS properties
 ## Author
 
 - Frontend Mentor - [@KaskaS-O](https://www.frontendmentor.io/profile/KaskaS-O)
+- GitHub Pages - [@KaskaS-O](https://kaskas-o.github.io/single-price-grid-component/)
