@@ -58,12 +58,27 @@ section {
 
 .about {
     background-color: $bgc-light;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__list-element {
+        line-height: 150%;
+        color: $font-light;
+    }
 }
 
 
 .footer__attribution { 
+    padding: 10px 30px;
     background-color: $bgc-main;
-    font-size: 11px; 
+    color: $font-light;
+    font-family: 'Karla', sans-serif;
+    font-size: 0.7rem; 
     text-align: center; 
-    a { color: hsl(228, 45%, 44%); }
+    a { 
+        color: darken($bgc-main, 25%); 
+        text-decoration: none;
+    }
 }

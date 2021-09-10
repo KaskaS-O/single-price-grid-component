@@ -65,12 +65,25 @@ section {
   background-color: #2dbebc;
 }
 
+.about__list {
+  list-style: none;
+}
+
+.about__list-element {
+  line-height: 150%;
+  color: #e5eff5;
+}
+
 .footer__attribution {
+  padding: 10px 30px;
   background-color: #2ab2af;
-  font-size: 11px;
+  color: #e5eff5;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.7rem;
   text-align: center;
 }
 
 .footer__attribution a {
-  color: #3e52a3;
+  color: #114a49;
+  text-decoration: none;
 }
